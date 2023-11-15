@@ -1,0 +1,404 @@
+/* body{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+nav{
+   
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+} 
+nav a:link{
+   
+    text-decoration: none;
+}
+#img-navicon{
+    width: 30px;
+}
+ */
+
+ #header{
+    background-color: rgba(3, 3, 3, 0.89);
+    height: 44px;
+    width: 100%;
+    float: left;
+
+ }
+ /* .container{
+  height: 44px; 
+   border: 2px solid blue; 
+} */
+
+ /* nav{
+  padding:0 ;
+  
+   /* align-self: center;
+  } */
+.center-header{
+  padding: 0%;
+}
+
+
+.navbar{
+  /* background-color: rgb(142, 142, 49); */
+    width: 100%;
+    height: 44px;
+    padding: 0%;
+}
+
+.navtext{
+  height: 44px;
+  /* padding: 20px; */
+  text-align: center;
+  /* padding: 0%; */
+}
+ .navbar ul {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    padding: 0px 10px px rem;
+    /* align-items: center; */
+  }
+  
+  .navbar li {
+    
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    /* position: relative; */
+    padding: 10px 0 10px 28px;
+    color: rgb(216, 216, 216);
+    cursor: pointer;
+    padding: 5px px 0px px;
+    /* padding-left: 3rem; */
+     align-items: center;
+    
+  } 
+  .navbar ul :hover{
+    color: rgb(255, 255, 255);
+  }
+  .mobnav{
+    display: none;
+    
+    /* display: flex; */
+
+  }
+  .navicon{
+    padding-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    
+  }
+  .navmenu{
+    padding-top: 8px;
+    display: inline-block;
+    float: inline-end;
+    cursor: pointer;
+    
+  }
+
+
+  .offer-sec{
+    /* height: 100px; */
+  }
+  .offer-transparent{
+    height: 44px;
+  }
+.offer-text{
+  font-size: 14px;
+  font-weight: 600;
+  /* padding-top:10px ; */
+  text-align: center;
+  padding: 16px 60px;
+}
+.offer-text a{
+  color: rgb(188, 188, 11);
+  text-decoration : none;
+}
+.offer-text a:hover{
+  text-decoration: underline;
+}
+.offer-textdiv{
+  background-color: rgb(33, 33, 56);
+  color: rgb(206, 202, 202);
+}
+.right-arrow
+{
+       display: inline-block;
+      margin-right: 20px;
+      width: 8px;
+      height: 8px;
+      border-top: 2px solid rgb(188, 188, 11);
+      border-right: 2px solid rgb(188, 188, 11);
+       transform: rotate(45deg);
+}
+.arrowtop{
+  display: inline-block;
+  /* margin-right: 5px; */
+  margin-top: 10px;
+  width: 12px;
+  height: 12px;
+   border-top: 2px solid;
+  border-right: 2px solid;
+   transform: rotate(-45deg);
+}
+
+#scrollbtn{
+  display: none;
+  position: fixed; 
+  bottom:20px ;
+   right: 20px;
+  z-index: 99;
+ 
+  outline: none;
+  
+  
+  /* cursor: pointer; */
+  /* padding: 15px; */
+  border-radius : 40%;
+  width: 3rem;
+  /* text-align: center; */
+
+}
+
+
+
+.img-lap{
+  /* background-color: rgb(140, 255, 0); */
+  /* height: 400px; */
+  text-align: center;
+  /* height: 570px; */
+  position: relative;
+  margin-top: 10px;
+}
+#big-lap{
+  /* width: 100%;
+  margin: auto;
+  text-align: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* position: absolute;
+  bottom: 0; */
+}
+
+
+#sml-lap{
+  display: none;
+  /* padding: 0px 5%;
+  text-align: center;
+  display: block; */
+ /* padding-top: 100px; */
+  margin-left: auto;
+  margin-right: auto;
+  width : 70%;
+  /* height: 400px; */
+}
+.top-lapimg{
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: aqua; */
+  clear: both;
+}
+.top-lapimg h1{
+  padding: 0%;
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+.top-lapimg p{
+  padding: 0%;
+  font-size: 1.5rem;
+  margin: 0%;
+  
+}
+.top-lapimg pre , .top-lapimg a{
+  
+  font-size: 1rem;
+  font-weight: 400;
+  /* letter-spacing: 0.231px; */
+  /* line-height: 29px; */
+  text-decoration: none;
+  display: inline-block;
+  padding: 0%;
+  margin: 0%;
+}
+.top-lapimg a:hover{
+  text-decoration: underline;
+}
+
+
+.right-arrow-lap{
+  display: inline-block;
+  margin-right: 20px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid rgb(103, 103, 242);
+  border-right: 2px solid rgba(70, 70, 243, 0.836);
+   transform: rotate(45deg);
+}
+
+
+/* here  */
+
+.img-lap2{
+  /* background-color: rgb(140, 255, 0); */
+  /* height: 400px; */
+  text-align: center;
+  /* height: 570px; */
+  position: relative;
+  /* margin-top: 10px; */
+  margin: 0;
+  padding: 0%;
+}
+
+#big-lap2{
+  /* width: 100%;
+  margin: auto;
+  text-align: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* position: absolute;
+  bottom: 0; */
+}
+#sml-lap2{
+  display: none;
+  /* padding: 0px 5%;
+  text-align: center;
+  display: block; */
+ /* padding-top: 100px; */
+  margin-left: auto;
+  margin-right: auto;
+  width : 100%;
+  height: 500px;
+  /* height: 400px; */
+}
+.top-lapimg2{
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: aqua; */
+  clear: both;
+}
+.top-lapimg2 h1{
+  padding: 0%;
+  font-weight: bold;
+  font-size: 2.7rem;
+  color: rgb(178, 175, 175);
+}
+.top-lapimg2 p{
+  padding: 0%;
+  font-size: 1.5rem;
+  margin: 0%;
+  color: rgb(178, 175, 175);
+  
+}
+.top-lapimg2 pre , .top-lapimg2 a{
+  
+  font-size: 1rem;
+  font-weight: 400;
+  /* letter-spacing: 0.231px; */
+  /* line-height: 29px; */
+  text-decoration: none;
+  display: inline-block;
+  padding: 0%;
+  margin: 0%;
+}
+.top-lapimg2 a:hover{
+  text-decoration: underline;
+}
+
+
+/* here tale */
+
+
+.discription-div{
+  background-color: rgba(230, 234, 229, 0.464);
+  margin-top: 50px;
+  /* height: 1000px; */
+}
+.discription{
+  padding: 30px 0px;
+}
+.col-3 div ul,.bdiv, .col-3 div h1{
+  font-size: 1rem;
+  display: inline;
+}
+
+.col-3 div ul{
+  list-style: none;
+  padding: 0;
+
+}
+.col-3 div ul li{
+  cursor: pointer;
+}
+
+
+
+ @media all and (max-width: 1005px){
+  .navbar ul{
+    display: none;
+  }
+  .mobnav{
+    display: block;
+  }
+  .top-lapimg  {
+    display: none;
+  }
+  .top-lapimg2 {
+    display: none;
+  }
+  .col-3 div ul{
+    display: none;
+    
+  }
+  .col-3 div h1{
+    margin-bottom: 20px;
+    font-size: larger;
+    cursor: pointer;
+
+   
+  }
+  .col-3 {
+    width: 100%;
+    display: block;
+    
+   
+    
+    
+  }
+ }
+@media all and (max-width:700px){
+  .img-lap{
+    height: 500px;
+  }
+  .img-lap2{
+    height: 500px;
+  }
+  #big-lap {
+    display: none;
+  }
+  #sml-lap{
+    display: block;
+  }
+  #big-lap2 {
+    display: none;
+  }
+  #sml-lap2{
+    display: block;
+  }
+  
+  
+}
+
+
